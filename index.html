@@ -231,23 +231,89 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
-          <div class="container">
-            <form action="#" class="contact-form">
-                <h2>Contact Me</h2>
-                <div class="input-group">
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="input-group">
-                    <input type="email" id="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="input-group">
-                    <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
+            <h2 class="mb-5">Contact me on Email</h2>
+            <div class="container" style="
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                max-width: 500px;
+            ">
+                <form action="#" style="
+                    display: flex;
+                    flex-direction: column;
+                ">
+                    <h2 style="
+                        text-align: center;
+                        margin-bottom: 20px;
+                        color: #333;
+                    ">Contact Me</h2>
+                    <div style="
+                        margin-bottom: 15px;
+                    ">
+                        <label for="name" style="
+                            display: block;
+                            margin-bottom: 5px;
+                            color: #555;
+                        ">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required style="
+                            width: 100%;
+                            padding: 10px;
+                            border: 1px solid #ddd;
+                            border-radius: 4px;
+                            font-size: 14px;
+                            transition: border-color 0.3s;
+                        ">
+                    </div>
+                    <div style="
+                        margin-bottom: 15px;
+                    ">
+                        <label for="email" style="
+                            display: block;
+                            margin-bottom: 5px;
+                            color: #555;
+                        ">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required style="
+                            width: 100%;
+                            padding: 10px;
+                            border: 1px solid #ddd;
+                            border-radius: 4px;
+                            font-size: 14px;
+                            transition: border-color 0.3s;
+                        ">
+                    </div>
+                    <div style="
+                        margin-bottom: 15px;
+                    ">
+                        <label for="message" style="
+                            display: block;
+                            margin-bottom: 5px;
+                            color: #555;
+                        ">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="4" required style="
+                            width: 100%;
+                            padding: 10px;
+                            border: 1px solid #ddd;
+                            border-radius: 4px;
+                            font-size: 14px;
+                            transition: border-color 0.3s;
+                        "></textarea>
+                    </div>
+                    <button type="submit" style="
+                        width: 100%;
+                        padding: 10px;
+                        background-color: #007bff;
+                        border: none;
+                        border-radius: 4px;
+                        color: #fff;
+                        font-size: 16px;
+                        cursor: pointer;
+                        transition: background-color 0.3s;
+                    ">Send Message</button>
+                </form>
+            </div>
         </div>
-        </div>
-      </section>
+    </section>
 
     </div>
 
@@ -265,72 +331,6 @@
 
   </body>
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
-    background: #fff;
-    padding: 20px 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
-}
-
-.contact-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
-}
-
-.input-group input,
-.input-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
-    transition: border-color 0.3s;
-}
-
-.input-group input:focus,
-.input-group textarea:focus {
-    border-color: #007bff;
-    outline: none;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
+  
 </style>
 </html>
